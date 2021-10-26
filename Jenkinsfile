@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install') { 
         steps { 
-           sh 'echo "Packages Installed...."'
+           sh 'echo "Packages Installed......."'
         }
      }
      
