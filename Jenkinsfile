@@ -6,13 +6,13 @@ pipeline {
    
      stage('Install') { 
         steps { 
-           sh 'echo "Packages Installed..."'
+           sh 'echo "Packages Installed...."'
         }
      }
      
      stage('Test') { 
         steps { 
-           sh 'echo "Application Tested..."'
+           sh 'echo "Application Tested......."'
         }
       }
 
